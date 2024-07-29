@@ -27,7 +27,9 @@ df = pd.read_excel("online_retail_II.xlsx", sheet_name="Year 2010-2011", engine=
 df.head()
 df.describe().T
 df.isnull().sum()
-
+first_user = 21987
+second_user = 23235
+third_user = 22747
 # Adım 2: StockCode’u POST olan gözlem birimlerini drop ediniz.
 # (POST her faturaya eklenen bedel, ürünü ifade etmemektedir.)
 df = df[~df["StockCode"].str.contains("POST", na=False)]
@@ -70,8 +72,9 @@ def check_id(df, stock_code):
     product_name = df[df["StockCode"]== stock_code][["Description"]].values[0].tolist()
     print(product_name)
 
-random_stock_code = int(pd.Series(gr_inv_pro_df.index).sample(1, random_state=45).values)
-check_id(df, 16237)
+check_id(df, first_user)
+check_id(df, second_user)
+check_id(df, third_user)
 
 # Adım 2: arl_recommender fonksiyonunu kullanarak 3 kullanıcı için ürün önerisinde bulununuz.
 def arl_recommender(rules_df, product_id, rec_count=1):
@@ -85,16 +88,17 @@ def arl_recommender(rules_df, product_id, rec_count=1):
     return recommendation_list[0: rec_count]
 
 
-print(arl_recommender(gr_inv_pro_df, 22629, 2))
+print(arl_recommender(gr_inv_pro_df, 21987, 2))
 # [22467, 21915]
-print(arl_recommender(gr_inv_pro_df, 21915, 3))
+print(arl_recommender(gr_inv_pro_df, 23235, 3))
 # [22716, 22467, 22077]
-print(arl_recommender(gr_inv_pro_df, 22077, 3))
+print(arl_recommender(gr_inv_pro_df, 22747, 3))
 # [21915, 21915, 22037]
 
 # Adım 3: Önerilecek ürünlerin isimlerine bakınız.
-print(check_id(df, 22467))
-print(check_id(df, 21915))
+print(check_id(df, 21987))
+print(check_id(df, 23235))
+print(check_id(df, 22747))
 
 
 

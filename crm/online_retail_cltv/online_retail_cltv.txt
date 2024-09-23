@@ -1,0 +1,14 @@
+BG-NBD ve Gamma-Gamma ile CLTV Tahmini
+İş Problemi:
+İngiltere merkezli perakende şirketi satış ve pazarlama faaliyetleri için roadmap belirlemek istemektedir. Şirketin
+orta uzun vadeli plan yapabilmesi için var olan müşterilerin gelecekte şirkete sağlayacakları potansiyel değerin
+tahmin edilmesi gerekmektedir.
+Veri Seti Hikayesi:
+InvoiceNo   : Fatura Numarası ( Eğer bu kod C ile başlıyorsa işlemin iptal edildiğini ifade eder )
+StockCode   : Ürün kodu ( Her bir ürün için eşsiz )
+Description : Ürün ismi
+Quantity    : Ürün adedi ( Faturalardaki ürünlerden kaçar tane satıldığı)
+InvoiceDate : Fatura tarihi
+UnitPrice   : Fatura fiyatı ( Sterlin )
+CustomerID  : Eşsiz müşteri numarası
+Country     : Ülke ismi

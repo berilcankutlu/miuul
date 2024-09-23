@@ -1,0 +1,16 @@
+Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
+İş Problemi:
+Gezinomi yaptığı satışların bazı özelliklerini kullanarak seviye tabanlı (level based) yeni satış tanımları oluşturmak ve bu yeni satış
+tanımlarına göre segmentler oluşturup bu segmentlere göre yeni gelebilecek müşterilerin şirkete ortalama ne kadar kazandırabileceğini
+tahmin etmek istemektedir.
+Değişkenler:
+miuul_gezinomi.xlsx
+SaleId             : Satış id
+SaleDate           : Satış Tarihi
+Price              : Satış için ödenen fiyat
+ConceptName        :Otel konsept bilgisi
+SaleCityName       : Otelin bulunduğu şehir bilgisi
+CheckInDate        :Müşterinin otelegirişitarihi
+CInDay             :Müşterinin otele giriş günü
+SaleCheckInDayDiff : Check in ile giriş tarihi gün farkı
+Season             :Otele giriş tarihindeki sezon bilgisi

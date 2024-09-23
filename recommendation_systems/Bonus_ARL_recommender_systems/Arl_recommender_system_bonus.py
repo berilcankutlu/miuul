@@ -1,20 +1,3 @@
-# Bonus: Association Rule Based Recommender System
-
-# Kullanıcı 1’in sepetinde bulunan ürünün id'si: 21987
-# Kullanıcı 2’in sepetinde bulunan ürünün id'si : 23235
-# Kullanıcı 3’in sepetinde bulunan ürünün id'si : 22747
-
-# InvoiceNo : Fatura Numarası ( Eğer bu kod C ile başlıyorsa işlemin iptal edildiğini ifade eder )
-# StockCode : Ürün kodu ( Her bir ürün için eşsiz )
-# Description : Ürün ismi
-# Quantity : Ürün adedi ( Faturalardaki ürünlerden kaçar tane satıldığı)
-# InvoiceDate : Fatura tarihi
-# UnitPrice : Fatura fiyatı ( Sterlin )
-# CustomerID : Eşsiz müşteri numarası
-# Country : Ülke ismi
-
-# 2010-2011 Germany
-
 # Görev 1: Veriyi Hazırlama
 # Adım 1: Online Retail II veri setinden 2010-2011 sheet’ini okutunuz.
 import pandas as pd

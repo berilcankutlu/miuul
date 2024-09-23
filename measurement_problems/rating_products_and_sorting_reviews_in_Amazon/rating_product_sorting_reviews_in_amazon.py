@@ -1,23 +1,4 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# Veri Hikayesi
-# Problem 1 : ürünlere satış sonrası verilen puanların doğru şekilde hesaplanması
-# Probem 2: ürünlere verilen yorumların doğru bir şekilde sıralanması
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# reviewerID     : Kullanıcı ID’si
-# asin           : Ürün ID’si
-# reviewerName   : Kullanıcı Adı
-# helpful        : Faydalı değerlendirme derecesi
-# reviewText     : Değerlendirme
-# overall        : Ürün rating’i
-# summary        : Değerlendirme özeti
-# unixReviewTime : Değerlendirme zamanı
-# reviewTime     : Değerlendirme zamanı Raw
-# day_diff       : Değerlendirmeden itibaren geçen gün sayısı
-# helpful_yes    : Değerlendirmenin faydalı bulunma sayısı
-# total_vote     : Değerlendirmeye verilen oy sayısı
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import pandas as pd
 import math
 import scipy.stats as st

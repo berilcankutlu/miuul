@@ -1,0 +1,13 @@
+Association Rule Based Recommender System
+İş Problemi:
+Aşağıda 3 farklı kullanıcının sepet bilgileri verilmiştir. Bu sepet bilgilerine en uygun ürün önerisini birliktelik kuralı kullanarak yapınız. Ürün önerileri 1 tane ya da 1'den fazla olabilir. Karar kurallarını 2010-2011 Germany müşterileri üzerinden türetiniz.
+
+Veri Seti Hikayesi:
+InvoiceNo   : Fatura Numarası ( Eğer bu kod C ile başlıyorsa işlemin iptal edildiğini ifade eder )
+StockCode   : Ürün kodu ( Her bir ürün için eşsiz )
+Description : Ürün ismi
+Quantity    : Ürün adedi ( Faturalardaki ürünlerden kaçar tane satıldığı)
+InvoiceDate : Fatura tarihi
+UnitPrice   : Fatura fiyatı ( Sterlin )
+CustomerID  : Eşsiz müşteri numarası
+Country     : Ülke ismi

@@ -1,18 +1,4 @@
 # Hybrid Recommender System
-# İş Problemi : ID'si verilen kullanıcı için item-based ve user-based recommender
-# yöntemlerini kullanarak 10 film önerisi yapınız.
-
-# movie.csv :
-# movieId: Eşsiz film numarası.
-# title: Film adı
-# genres: Tür
-
-# rating.csv :
-# userid : Eşsiz kullanıcı numarası. (UniqueID)
-# movieId :Eşsiz film numarası. (UniqueID)
-# rating : Kullanıcı tarafından filme verilen puan
-# timestamp : Değerlendirme tarihi
-
 # User Based Recommendation
 # Görev 1: Veri Hazırlama
 # Adım 1: movie, rating veri setlerini okutunuz.

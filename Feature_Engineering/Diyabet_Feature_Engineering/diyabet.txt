@@ -1,0 +1,13 @@
+Feature Engineering
+İş Problemi:
+Özellikleri belirtildiğinde kişilerin diyabet hastası olup olmadıklarını tahmin edebilecek bir makine öğrenmesi modeli geliştirilmesi istenmektedir. Modeli geliştirmeden önce gerekli olan veri analizi ve özellik mühendisliği adımlarını gerçekleştirmeniz beklenmektedir.
+Veri Seti Hikayesi:
+Pregnancies              : Hamilelik sayısı
+Glucose Oral             : glikoz tolerans testinde 2 saatlik plazma glikoz konsantrasyonu
+Blood Pressure           : Kan Basıncı (Küçük tansiyon) (mm Hg)
+SkinThickness            : Cilt Kalınlığı
+Insulin                  : 2 saatlik serum insülini (mu U/ml)
+DiabetesPedigreeFunction : Fonksiyon (Oral glikoz tolerans testinde 2 saatlik plazma glikoz konsantrasyonu)
+BMI                      : Vücut kitle endeksi
+Age                      : Yaş (yıl)
+Outcome                  : Hastalığa sahip (1) ya da değil (0)

@@ -9,54 +9,62 @@ Bu repoda, [Miuul Data Scientist Path](https://miuul.com) programı kapsamında 
 ### 1. `data_science_with_python/`
 Python ile veri analizi, veri görselleştirme ve temel veri bilimi süreçlerinin uygulandığı projeleri içerir:
 
-- `bonus-kural_tabanlı_sınıflandırma_ile_potansiyel_müşteri_getirisi_hesaplama.ipynb`
-- `gezinomi_kural_tabanlı_sınıflandırma_ile_potansiyel_müşteri_getirisi_hesaplama.ipynb`
+- `bonus-kural_tabanlı_sınıflandırma_ile_potansiyel_müşteri_getirisi_hesaplama.py`
+- `gezinomi_kural_tabanlı_sınıflandırma_ile_potansiyel_müşteri_getirisi_hesaplama.py`
 
 ---
 
 ### 2. `Feature_Engineering/`
 Veri setleri üzerinde detaylı özellik mühendisliği uygulamalarının gerçekleştirildiği projeleri içerir:
 
-- `Diyabet_Feature_Engineering.ipynb`
-- `Telco_Customer_Churn_Feature_Engineering.ipynb`
+- `Diyabet_Feature_Engineering.py`
+- `Telco_Customer_Churn_Feature_Engineering.py`
 
 ---
 
 ### 3. `Machine_Learning/`
 Denetimli ve denetimsiz makine öğrenmesi algoritmalarının uygulandığı projeleri içerir:
 
-- `Flo_unsupervised_learning.ipynb`
-- `Hitterss.ipynb`
-- `Telco_Churn.ipynb`
-- `house_price_prediction.ipynb`
-- `scoutium_potential.ipynb`
+- `Flo_unsupervised_learning.py`
+- `Hitterss.py`
+- `Telco_Churn.py`
+- `house_price_prediction.py`
+- `scoutium_potential.py`
 
 ---
 
 ### 4. `crm/`
 CRM analitiği ve müşteri değer tahmini konularında projeler içerir:
 
-- `FLOMusteriSegmentasyonu.ipynb`
-- `FLO_CLTV_Prediction.ipynb`
-- `Online_Retail_RFM.ipynb`
-- `online_retail_cltv.ipynb`
+- `FLOMusteriSegmentasyonu.py`
+- `FLO_CLTV_Prediction.py`
+- `Online_Retail_RFM.py`
+- `online_retail_cltv.py`
 
 ---
 
 ### 5. `measurement_problems/`
 İstatistiksel testler ve ölçümleme problemleri üzerine uygulamaların yapıldığı projeleri içerir:
 
-- `ab_testi_ile_bidding_yöntemlerinin_dönüşümünün_karşılaştırılması.ipynb`
-- `rating_products_and_sorting_reviews_in_Amazon.ipynb`
+- `ab_testi_ile_bidding_yöntemlerinin_dönüşümünün_karşılaştırılması.py`
+- `rating_products_and_sorting_reviews_in_Amazon.py`
 
 ---
 
 ### 6. `recommendation_systems/`
 Kural tabanlı ve hibrit öneri sistemlerinin geliştirildiği projeleri içerir:
 
-- `Bonus_ARL_recommender_systems.ipynb`
-- `armut_arl_recommender_system.ipynb`
-- `hybrid_recommender_system.ipynb`
+- `Bonus_ARL_recommender_systems.py`
+- `armut_arl_recommender_system.py`
+- `hybrid_recommender_system.py`
+
+---
+
+### 7. `nlp/`
+Yorumlardan duygu analizi yapılması ve ön işleme adımlarının uygulandığı projeleri içerir:
+
+- `Wikipedia.py`
+- `amazon_review_sentiment_analysis.py`
 
 ---
 

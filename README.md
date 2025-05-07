@@ -65,6 +65,7 @@ Yorumlardan duygu analizi yapılması ve ön işleme adımlarının uygulandığ
 
 - `Wikipedia.py`
 - `amazon_review_sentiment_analysis.py`
+- `SentimentyBot/main.py`
 
 ---
 
